@@ -39,7 +39,7 @@ public class Product {
         private Integer stockQuality;
 
 //        @NotBlank(message = "Description is required")
-        private String decription;
+        private String description;
 
 
         @Column(name="expire_date", nullable = true)
@@ -66,7 +66,7 @@ public class Product {
                 ", sku='" + sku + '\'' +
                 ", price='" + price + '\'' +
                 ", stockQuality='" + stockQuality + '\'' +
-                ", decription='" + decription + '\'' +
+                ", decription='" + description + '\'' +
                 ", expireDate='" + expireDate + '\'' +
                 ", imageUrl='" + imageUrl + '\'' +
                 ", createAt=" + createAt +
